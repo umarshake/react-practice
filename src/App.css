@@ -51,9 +51,10 @@
   -webkit-border-radius: 6px;
   margin-bottom: 30px;
 }
-
-*[class$='_section']{
+/* .resume_section{
   margin-left: 30px !important;
+} */
+div[class*='_section']{
   padding-left: 30px !important;
   padding-right: 30px !important;
   padding-top: 45px !important;
