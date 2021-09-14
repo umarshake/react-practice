@@ -29,7 +29,7 @@ const Profile = () =>{
                         <CustomTimeLineItem title="Name" text={resumeData.name}/>
                         <CustomTimeLineItem title="Title" text={resumeData.designation}/>
                         <CustomTimeLineItem title="Phone" text={resumeData.phone}/>
-                        <CustomTimeLineItem title="email" text={resumeData.email} />
+                        <CustomTimeLineItem title="Email" text={resumeData.email} />
                     </CustomTimeLine>
                     <div className='profile_btn_container'>
                             <CustomButton text='Download CV' icon={<GetAppIcon />}/>

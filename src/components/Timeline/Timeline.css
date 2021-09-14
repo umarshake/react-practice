@@ -5,6 +5,7 @@
 
 .timeline .timeline_header{
     padding-top: 7px;
+    font-weight: 600;
 }
 .timeline .timeline_first_item{
     min-height: 100px !important;
