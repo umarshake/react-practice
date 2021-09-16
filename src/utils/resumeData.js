@@ -1,7 +1,12 @@
-import { AssignmentOutlined, GestureOutlined, Speed, WebOutlined } from '@material-ui/icons';
+import { AssignmentOutlined, GestureOutlined, GitHub, Language, Speed, WebOutlined, YouTube } from '@material-ui/icons';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+
+import tab_back_1 from '../assets/images/tab_background.jpg';
+import tab_back_2 from '../assets/images/tab_back2.jpeg';
+import tab_back_3 from '../assets/images/tab_back3.jpeg';
+
 
 var resumeData = {
     name: 'Umar Khan',
@@ -152,6 +157,80 @@ var resumeData = {
                 'GITLAB'
             ]
         },
+    ],
+    portfolio:[
+        {
+            tag:'React',
+            image:tab_back_1,
+            images: [
+                tab_back_1,
+                tab_back_2,
+                tab_back_3,
+            ],
+            title:'React project 1',
+            caption:'A short description',
+            description: 'this is the project description of project one',
+            links:[
+                {link:'https://www.google.com',icon: <YouTube />},
+                {link:'https://www.google.com',icon: <GitHub />},
+                {link:'https://www.google.com',icon: <Language />},
+            ]
+        },
+        {
+            tag:'React',
+            image:tab_back_2,
+            images: [
+                tab_back_1,
+                tab_back_2,
+                tab_back_3,
+            ],
+            caption:'A short description',
+            title:'React project 2',
+            description: 'this is the project description of project two in react',
+            links:[
+                {link:'https://www.google.com',icon: <YouTube />},
+                {link:'https://www.google.com',icon: <GitHub />},
+                {link:'https://www.google.com',icon: <Language />},
+            ]
+        },
+        {
+            tag:'JavaScript',
+            image:tab_back_3,
+            images: [
+                tab_back_1,
+                tab_back_2,
+                tab_back_3,
+            ],
+            caption:'A short description',
+            title:'JavaScript project 2',
+            description: 'this is the project description of project two',
+            links:[
+                {link:'https://www.google.com',icon: <YouTube />},
+                {link:'https://www.google.com',icon: <GitHub />},
+                {link:'https://www.google.com',icon: <Language />},
+            ],
+            
+        },
+        {
+            tag:'Python',
+            image:tab_back_1,
+            images: [
+                tab_back_1,
+                tab_back_2,
+                tab_back_3,
+            ],
+            caption:'A short description',
+            title:'Python project 2',
+            description: 'this is the project description of project two',
+            links:[
+                {link:'https://www.google.com',icon: <YouTube />},
+                {link:'https://www.google.com',icon: <GitHub />},
+                {link:'https://www.google.com',icon: <Language />},
+            ],
+            
+        },
+        
+
     ],
     about_me:"I am a sotware engineer having 4 years of experience in web development and sotware engineering.I am looking for new opportuinities to implement my skills and enhance them with new one.",
 
